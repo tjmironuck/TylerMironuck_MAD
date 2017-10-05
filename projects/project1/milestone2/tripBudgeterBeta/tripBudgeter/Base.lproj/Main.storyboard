@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="tripBudgeter" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleAspectFit" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AwH-w5-HS6">
+                                <rect key="frame" x="42" y="328" width="290" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="Qf4-eg-qbw"/>
+                                    <constraint firstAttribute="width" constant="290" id="cI4-l9-b2o"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="What's your budget?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hep-qY-2t5">
+                                <rect key="frame" x="42" y="28" width="290" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="ktt-z0-NyF"/>
+                                    <constraint firstAttribute="width" constant="290" id="w8N-KU-BEm"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Would you like to stay within the U.S. or travel abroad?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hTd-rI-TgT">
+                                <rect key="frame" x="42" y="201" width="290" height="45"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="45" id="opZ-Wh-tdS"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="How many people are traveling?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vek-pF-Gvx">
+                                <rect key="frame" x="42" y="145.5" width="244" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$1,000" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZRH-US-SAp">
+                                <rect key="frame" x="161" y="57" width="53" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" translatesAutoresizingMaskIntoConstraints="NO" id="Nvr-iU-WfR">
+                                <rect key="frame" x="57.5" y="254" width="260" height="29"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="260" id="0zU-PV-TMm"/>
+                                    <constraint firstAttribute="height" constant="28" id="4Vb-fF-VJO"/>
+                                </constraints>
+                                <segments>
+                                    <segment title="I like my country."/>
+                                    <segment title="I'm a globe-trotter!"/>
+                                </segments>
+                                <connections>
+                                    <action selector="changeInfo:" destination="BYZ-38-t0r" eventType="valueChanged" id="0Co-he-o2x"/>
+                                </connections>
+                            </segmentedControl>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="quotePic" translatesAutoresizingMaskIntoConstraints="NO" id="e6J-tv-jBg">
+                                <rect key="frame" x="80" y="357" width="214" height="300"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="214" id="AMQ-9Q-2cv"/>
+                                    <constraint firstAttribute="height" constant="300" id="Xvj-6h-OOJ"/>
+                                </constraints>
+                            </imageView>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="1000" minValue="500" maxValue="4000" translatesAutoresizingMaskIntoConstraints="NO" id="WGe-my-fke">
+                                <rect key="frame" x="85" y="85.5" width="204" height="31"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="zMW-9f-7FX"/>
+                                </constraints>
+                                <connections>
+                                    <action selector="changeBudget:" destination="BYZ-38-t0r" eventType="valueChanged" id="4hd-0D-M9s"/>
+                                </connections>
+                            </slider>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Gbc-SH-4dn">
+                                <rect key="frame" x="302" y="141.5" width="30" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="30" id="Mnv-We-5US"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numbersAndPunctuation" returnKeyType="done"/>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Vek-pF-Gvx" firstAttribute="leading" secondItem="Hep-qY-2t5" secondAttribute="leading" id="7KV-0r-7wj"/>
+                            <constraint firstItem="hTd-rI-TgT" firstAttribute="leading" secondItem="Vek-pF-Gvx" secondAttribute="leading" id="7LX-Cs-8Vh"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" relation="greaterThanOrEqual" secondItem="e6J-tv-jBg" secondAttribute="bottom" constant="10" id="8Z4-y3-j2v"/>
+                            <constraint firstItem="Vek-pF-Gvx" firstAttribute="top" secondItem="WGe-my-fke" secondAttribute="bottom" constant="30" id="9M9-0K-1II"/>
+                            <constraint firstItem="ZRH-US-SAp" firstAttribute="top" secondItem="Hep-qY-2t5" secondAttribute="bottom" constant="8" id="GfC-3Q-dyT"/>
+                            <constraint firstItem="e6J-tv-jBg" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="H7V-Hb-bIr"/>
+                            <constraint firstItem="AwH-w5-HS6" firstAttribute="trailing" secondItem="Hep-qY-2t5" secondAttribute="trailing" id="MH6-s3-2nZ"/>
+                            <constraint firstItem="Hep-qY-2t5" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="NgL-Xk-Gpz"/>
+                            <constraint firstItem="AwH-w5-HS6" firstAttribute="leading" secondItem="Hep-qY-2t5" secondAttribute="leading" id="aSU-Td-ib8"/>
+                            <constraint firstItem="Hep-qY-2t5" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="boz-cT-wqx"/>
+                            <constraint firstItem="WGe-my-fke" firstAttribute="top" secondItem="ZRH-US-SAp" secondAttribute="bottom" constant="8" id="bq3-g6-KPR"/>
+                            <constraint firstItem="Gbc-SH-4dn" firstAttribute="centerY" secondItem="Vek-pF-Gvx" secondAttribute="centerY" id="h7x-pO-BCR"/>
+                            <constraint firstItem="Nvr-iU-WfR" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="hV1-kN-v18"/>
+                            <constraint firstItem="Nvr-iU-WfR" firstAttribute="top" secondItem="hTd-rI-TgT" secondAttribute="bottom" constant="8" id="hmH-HE-bhW"/>
+                            <constraint firstItem="WGe-my-fke" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ih8-eR-5eX"/>
+                            <constraint firstItem="hTd-rI-TgT" firstAttribute="top" secondItem="Gbc-SH-4dn" secondAttribute="bottom" constant="30" id="kp1-bY-ehq"/>
+                            <constraint firstItem="e6J-tv-jBg" firstAttribute="top" secondItem="AwH-w5-HS6" secondAttribute="bottom" constant="8" id="qlW-Tu-Xj3"/>
+                            <constraint firstItem="ZRH-US-SAp" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="rOs-vg-KXD"/>
+                            <constraint firstItem="AwH-w5-HS6" firstAttribute="top" secondItem="Nvr-iU-WfR" secondAttribute="bottom" constant="46" id="t08-6n-DaT"/>
+                            <constraint firstItem="hTd-rI-TgT" firstAttribute="trailing" secondItem="Hep-qY-2t5" secondAttribute="trailing" id="wsb-WV-ZRN"/>
+                            <constraint firstItem="Gbc-SH-4dn" firstAttribute="trailing" secondItem="Hep-qY-2t5" secondAttribute="trailing" id="xQh-vW-Mfy"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="budgetSizeLabel" destination="ZRH-US-SAp" id="d3x-8P-fru"/>
+                        <outlet property="destinationImage" destination="e6J-tv-jBg" id="9yt-ag-Cn8"/>
+                        <outlet property="destinationText" destination="AwH-w5-HS6" id="h8E-tg-JsT"/>
+                        <outlet property="locationControl" destination="Nvr-iU-WfR" id="WbE-h7-sgE"/>
+                        <outlet property="numPeople" destination="Gbc-SH-4dn" id="Bf0-3z-AKc"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="32.799999999999997" y="37.331334332833585"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="quotePic" width="16" height="16"/>
+    </resources>
+</document>
