@@ -11,14 +11,20 @@ import UIKit
 class Scene2ViewController: UIViewController, UITextFieldDelegate {
     @IBOutlet weak var userBook: UITextField!
     @IBOutlet weak var userAuthor: UITextField!
+    
 
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "doneFavs"{
             let scene1ViewController = segue.destination as! ViewController
+            
             //check to see that text was entered in the textfields
             if userBook.text!.isEmpty == false{
-                scene1ViewController.user.favBook
+                scene1ViewController.user.favBook=userBook.text
             }
+            if userAuthor.text!.isEmpty == false{
+                scene1ViewController.user.favAuthor=userAuthor.text
+            }
+        }
     }
     
     override func viewDidLoad() {

@@ -39,16 +39,22 @@
                                     </barButtonItem>
                                 </items>
                             </toolbar>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="r0y-d3-S4l">
-                                <rect key="frame" x="166" y="158" width="42" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="r0y-d3-S4l">
+                                <rect key="frame" x="121" y="158" width="132" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="brP-KW-djm"/>
+                                    <constraint firstAttribute="width" constant="132" id="eeW-2o-zdU"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xoG-CA-beZ">
-                                <rect key="frame" x="166" y="284" width="42" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xoG-CA-beZ">
+                                <rect key="frame" x="121" y="284" width="132" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="132" id="421-a7-vFj"/>
+                                    <constraint firstAttribute="height" constant="21" id="PwT-44-0od"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -68,7 +74,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-198" y="127"/>
+            <point key="canvasLocation" x="-199.19999999999999" y="126.38680659670166"/>
         </scene>
         <!--Scene2 View Controller-->
         <scene sceneID="1XN-KO-29t">

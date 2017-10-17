@@ -15,7 +15,8 @@ class ViewController: UIViewController {
     var user = Favorite()
 
     @IBAction func unwindSegue(_ segue:UIStoryboardSegue){
-        
+        bookLabel.text=user.favBook
+        authorLabel.text=user.favAuthor
     }
     
     override func viewDidLoad() {
