@@ -347,6 +347,13 @@ class ViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSo
         self.scorePicker.delegate = self
         self.scorePicker.dataSource = self
         pickerData = ["Please roll the dice", " "," "," "," "," "," "," "," "," "," "," "," "]
+        
+        
+        let imageView = UIImageView(frame: CGRect(x: 0, y: 0, width: 39, height: 39))
+        imageView.contentMode = .scaleAspectFit
+        let image = UIImage(named: "logo.jpg")
+        imageView.image = image
+        navigationItem.titleView = imageView
     }
 
     override func didReceiveMemoryWarning() {
