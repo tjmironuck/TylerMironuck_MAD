@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Amy Schumer</key>
+	<array>
+		<string>The Leather Special</string>
+		<string>Live at the Apollo</string>
+		<string>Mostly Sex Stuff</string>
+	</array>
+	<key>Brian Regan</key>
+	<array>
+		<string>I Walked on the Moon</string>
+		<string>Standing Up</string>
+		<string>The Epitome of Hyperbole</string>
+		<string>Live from Radio City Music Hall</string>
+		<string>Nunchucks and Flamethrowers</string>
+	</array>
+	<key>Bill Burr</key>
+	<array>
+		<string>Why Do I Do This?</string>
+		<string>Let It Go</string>
+		<string>You People Are All The Same</string>
+		<string>I&apos;m Sorry You Feel That Way</string>
+		<string>Walk Your Way Out</string>
+	</array>
+	<key>Kevin Hart</key>
+	<array>
+		<string>I&apos;m a Grown Little Man</string>
+		<string>Seriously Funny</string>
+		<string>Laugh at My Pain</string>
+		<string>Let Me Explain</string>
+		<string>What Now?</string>
+	</array>
+	<key>Dane Cook</key>
+	<array>
+		<string>Harmful If Swallowed</string>
+		<string>Vicious Circle</string>
+		<string>Rough Around The Edges</string>
+		<string>Isolated Incident</string>
+		<string>Troublemaker</string>
+	</array>
+	<key>Sarah Silverman</key>
+	<array>
+		<string>We Are Miracles</string>
+		<string>A Speck of Dust</string>
+		<string>Jesus is Magic</string>
+	</array>
+</dict>
+</plist>
