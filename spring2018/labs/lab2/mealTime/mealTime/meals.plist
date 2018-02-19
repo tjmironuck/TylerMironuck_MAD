@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>French Toast</key>
+	<array>
+		<string>1 egg</string>
+		<string>1 teaspoon vanilla extract</string>
+		<string>1/4 cup milk</string>
+		<string>4 slices of bread</string>
+	</array>
+	<key>Denver Omelette </key>
+	<array>
+		<string>3 eggs</string>
+		<string>1/2 cup cheddar cheese</string>
+		<string>2 tablespoons butter</string>
+		<string>Quarter red bell pepper, chopped</string>
+		<string>1/4 cup chopped cooked ham</string>
+		<string> Quarter onion, chopped</string>
+		<string>Salt and pepper</string>
+		<string></string>
+	</array>
+	<key>Breakfast Sandwhich</key>
+	<array>
+		<string>3 strips of bacon</string>
+		<string>2 eggs</string>
+		<string>One plain bagel</string>
+		<string>1 Slice of American cheese</string>
+		<string>2 tablespoons butter</string>
+	</array>
+	<key>Cereal</key>
+	<array>
+		<string>1/2 cup 2% milk</string>
+		<string>Honey Oat Crunch</string>
+	</array>
+	<key>Pancakes</key>
+	<array>
+		<string>1 1/2 cup all purpose flower</string>
+		<string>3 1/2 teaspoons baking powder</string>
+		<string>1 teaspoon salt</string>
+		<string>1 1/4 cups milk</string>
+		<string>1 egg</string>
+		<string>3 tablespoons butter</string>
+		<string>1 tablespoon white sugar</string>
+	</array>
+	<key>Turkey Sandwhich</key>
+	<array>
+		<string>1 tablespoon mayonnaise</string>
+		<string>2 slices of bread</string>
+		<string>1/4 lb sliced turkey breast</string>
+		<string>1/4 cup drained roasted red bell peppers</string>
+		<string>4 large spinach leaves</string>
+		<string>1/4 teaspoon garlic powder</string>
+	</array>
+	<key>Chicken Club Sandwich</key>
+	<array>
+		<string>3 slices white bread, toased</string>
+		<string>2 tablespoons mayonnaise</string>
+		<string>1 roased chicken breast, thinly sliced</string>
+		<string>2 1/4-inch-thick slices tomatoe </string>
+		<string>1/2 avocado, sliced</string>
+		<string>4 slices cooked bacon</string>
+		<string>2 iceberg lettuce leaves</string>
+	</array>
+	<key>Tacos</key>
+	<array>
+		<string>1 Taco Bell seasoning mix packet</string>
+		<string>1 lb lean ground beef</string>
+		<string>1 pkg KRAFT shredded cheese</string>
+		<string>Chopped lettuce and tomatoes</string>
+		<string>1/2 cup sour cream</string>
+		<string>Flour tortillas</string>
+		<string>1/2 cup salsa</string>
+	</array>
+	<key>Meatloaf</key>
+	<array>
+		<string>1 1/2 lb ground beef</string>
+		<string>1 egg</string>
+		<string>1 onion, chopped</string>
+		<string>1 cup milk</string>
+		<string>1 cup dried bread crumbs</string>
+		<string>2 tablespoons brown sugar</string>
+		<string>2 tablespoons mustard</string>
+		<string>1/3 cup ketchup</string>
+	</array>
+	<key>Pizza</key>
+	<array>
+		<string>1/4 cup tomato sauce</string>
+		<string>1 teaspoon italian seasoning</string>
+		<string>1/2 teaspoon garlic powder</string>
+		<string>1 1/2 cups pepperoni slices</string>
+		<string>1 cup shredded mozzarella cheese</string>
+		<string>1 cup shredded monterey cheese</string>
+		<string>3 tablespoons grated parmesan cheese</string>
+		<string>Pillsbury Pizza crust 13.8 oz can</string>
+	</array>
+	<key>Spaghetti and Meatballs</key>
+	<array>
+		<string>5 Rosina fully cooked frozen meatballs</string>
+		<string>1/2 cup marinara sauce</string>
+		<string>8 oz speghetti noodles</string>
+		<string>2 tablespoons garlic powder</string>
+	</array>
+	<key>Hot Dogs</key>
+	<array>
+		<string>2 Ballpark franks</string>
+		<string>2 hot dog buns</string>
+		<string>1 tablespoon ketchup</string>
+		<string>1 tablespoon mustard</string>
+	</array>
+	<key>Cheeseburger (4 servings)</key>
+	<array>
+		<string>1 lb lean ground beef</string>
+		<string>1/4 seasoned dried bread crumbs</string>
+		<string>1/4 cup chopped onions</string>
+		<string>1 tsp seasoned salt</string>
+		<string>1/2 tsp pepper</string>
+		<string>4 slices colby cheese</string>
+		<string>4 lettuce leaves</string>
+		<string>4 slices tomato</string>
+		<string>Mayonnaise</string>
+		<string>Ketchup</string>
+		<string>Mustard</string>
+	</array>
+	<key>Mac n Cheese</key>
+	<array>
+		<string>Annie&apos;s macaroni &amp; cheese box</string>
+		<string>1/4 cup milk</string>
+		<string>2 Tablespoons butter</string>
+	</array>
+	<key>Potato Soup (5 servings)</key>
+	<array>
+		<string>6 cups peeled &amp; diced potatoes</string>
+		<string>1 1/2 chopped yellow onion</string>
+		<string>1 cup diced celery</string>
+		<string>2 cans chicken broth</string>
+		<string>1/3 cup butter</string>
+		<string>1/3 cup all purpose flower</string>
+		<string>2 1/2 cups milk</string>
+		<string>1/2 cup sour cream</string>
+	</array>
+</dict>
+</plist>
