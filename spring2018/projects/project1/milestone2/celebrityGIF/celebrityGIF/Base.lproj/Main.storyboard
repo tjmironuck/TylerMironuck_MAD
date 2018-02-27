@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="celebrityGIF" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="7d7-jK-wpk">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="CellIdentifier" id="UEg-4T-mqm">
+                                <rect key="frame" x="0.0" y="28" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="UEg-4T-mqm" id="Hp3-JZ-vHR">
+                                    <rect key="frame" x="0.0" y="0.0" width="341" height="43.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                                <connections>
+                                    <segue destination="CVq-9c-a6I" kind="show" identifier="gifsegue" id="yTC-lf-VIq"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="BYZ-38-t0r" id="MxR-f0-FrB"/>
+                            <outlet property="delegate" destination="BYZ-38-t0r" id="9nM-DZ-CIy"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" id="yCk-3I-NvW"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="472.80000000000001" y="126.38680659670166"/>
+        </scene>
+        <!--George Clooney GIFs-->
+        <scene sceneID="9Mk-jv-VgT">
+            <objects>
+                <collectionViewController id="z7P-nO-doP" customClass="CollectionViewController" customModule="celebrityGIF" customModuleProvider="target" sceneMemberID="viewController">
+                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="9C5-ZN-0G5">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="xZJ-P2-8dR">
+                            <size key="itemSize" width="118" height="106"/>
+                            <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                            <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                            <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        </collectionViewFlowLayout>
+                        <cells>
+                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="Cell" id="CHz-51-i9M" customClass="CollectionViewCell" customModule="celebrityGIF" customModuleProvider="target">
+                                <rect key="frame" x="87.5" y="0.0" width="200" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
+                                    <rect key="frame" x="0.0" y="0.0" width="200" height="100"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="uNq-wL-Clj">
+                                            <rect key="frame" x="0.0" y="0.0" width="200" height="100"/>
+                                        </imageView>
+                                    </subviews>
+                                </view>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="uNq-wL-Clj" secondAttribute="trailing" id="2OJ-1f-bNG"/>
+                                    <constraint firstItem="uNq-wL-Clj" firstAttribute="leading" secondItem="CHz-51-i9M" secondAttribute="leading" id="RxH-tW-hL4"/>
+                                    <constraint firstItem="uNq-wL-Clj" firstAttribute="top" secondItem="CHz-51-i9M" secondAttribute="top" id="lKP-ct-BYp"/>
+                                    <constraint firstAttribute="bottom" secondItem="uNq-wL-Clj" secondAttribute="bottom" id="tEd-zh-luU"/>
+                                </constraints>
+                                <size key="customSize" width="200" height="100"/>
+                                <connections>
+                                    <outlet property="imageView" destination="uNq-wL-Clj" id="daU-te-vSn"/>
+                                    <segue destination="cfx-Yx-ujk" kind="show" identifier="showDetail" id="9Iq-uB-hwW"/>
+                                </connections>
+                            </collectionViewCell>
+                        </cells>
+                        <connections>
+                            <outlet property="dataSource" destination="z7P-nO-doP" id="6YV-KN-NKv"/>
+                            <outlet property="delegate" destination="z7P-nO-doP" id="HCQ-vi-0aH"/>
+                        </connections>
+                    </collectionView>
+                    <navigationItem key="navigationItem" title="George Clooney GIFs" id="xim-tk-DPi"/>
+                </collectionViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vd4-YT-JAs" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1935" y="124"/>
+        </scene>
+        <!--Gif View Controller-->
+        <scene sceneID="rpM-eI-XN0">
+            <objects>
+                <viewController id="cfx-Yx-ujk" customClass="GifViewController" customModule="celebrityGIF" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="pf2-8Y-RSt">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="AVs-tL-9Tk">
+                                <rect key="frame" x="67" y="269" width="240" height="128"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Copy" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uL4-Jv-Xgd">
+                                <rect key="frame" x="158.5" y="442" width="57" height="41"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="23"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="uL4-Jv-Xgd" firstAttribute="centerX" secondItem="pf2-8Y-RSt" secondAttribute="centerX" id="7oa-k1-KOg"/>
+                            <constraint firstItem="uL4-Jv-Xgd" firstAttribute="top" secondItem="AVs-tL-9Tk" secondAttribute="bottom" constant="45" id="YKc-PC-Lsb"/>
+                            <constraint firstItem="AVs-tL-9Tk" firstAttribute="centerX" secondItem="pf2-8Y-RSt" secondAttribute="centerX" id="ZSZ-WV-udf"/>
+                            <constraint firstItem="AVs-tL-9Tk" firstAttribute="centerY" secondItem="pf2-8Y-RSt" secondAttribute="centerY" id="zCa-ey-m2Z"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="BPw-mY-Dc0"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="XPb-vW-N49"/>
+                    <connections>
+                        <outlet property="GifView" destination="AVs-tL-9Tk" id="dVQ-TG-Aa4"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="MyK-uL-qkQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2624.8000000000002" y="123.68815592203899"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="Yh4-Q3-BaW">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="9bc-fx-q1m" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="4n8-Ez-Vmq">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="mmM-NC-0CD"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="sfx-zY-ein" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-391" y="125"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="g8C-hV-apo">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="CVq-9c-a6I" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="THh-EX-Yaf">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="z7P-nO-doP" kind="relationship" relationship="rootViewController" id="nwm-dZ-9u8"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dFn-no-uDc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1232" y="124.13793103448276"/>
+        </scene>
+    </scenes>
+</document>

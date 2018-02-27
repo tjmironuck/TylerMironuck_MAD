@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>George Clooney</key>
+	<array>
+		<string>Algeria</string>
+		<string>Angola</string>
+	</array>
+	<key>Sean Connery</key>
+	<array/>
+	<key>Kevin Costner</key>
+	<array>
+		<string>Afghanistan</string>
+		<string>Bahrain</string>
+	</array>
+	<key>Daniel Craig</key>
+	<array>
+		<string>Albania</string>
+		<string>Andorra</string>
+	</array>
+	<key>Russel Crowe</key>
+	<array>
+		<string>Canada</string>
+		<string>United States</string>
+	</array>
+	<key>Tome Cruise</key>
+	<array>
+		<string>Australia</string>
+		<string>New Zealand</string>
+	</array>
+	<key>Willem Dafoe</key>
+	<array>
+		<string>Argentina</string>
+		<string>Brazil</string>
+	</array>
+	<key>Matt Demon</key>
+	<array/>
+	<key>Jeff Daniels</key>
+	<array/>
+	<key>Robert De Niro</key>
+	<array/>
+</dict>
+</plist>
