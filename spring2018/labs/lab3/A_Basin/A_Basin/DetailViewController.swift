@@ -40,7 +40,7 @@ class DetailViewController: UIViewController {
             case "abasin11":
                 imageInfoLabel.text = "Arapahoe Basin's Early Riser parking lot is home to a stretch of prime real estate known as \"The Beach\". The Beach backs up to the three lower mountain chairlifts and is the perfect spot to kick back between runs with family and friends. It's a sceen unique to the Basin, and a guaranteed good time! The Beach often plays home to birthday celebrations, reunions, company parties, and other special events."
             case "abasin12":
-                imageInfoLabel.text = "A-Basin i the abbreviation for Arapahoe Basin, sometimes also referred to as just \"The Basin.\"."
+                imageInfoLabel.text = "A-Basin is the abbreviation for Arapahoe Basin, sometimes also referred to as just \"The Basin.\"."
 
             default:
                 imageInfoLabel.text = "Something went wrong"
