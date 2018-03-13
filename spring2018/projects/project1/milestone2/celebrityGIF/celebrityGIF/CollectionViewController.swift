@@ -12,6 +12,7 @@ private let reuseIdentifier = "Cell"
 
 class CollectionViewController: UICollectionViewController, UICollectionViewDelegateFlowLayout {
     var celebrityImages=[String]()
+    var celebrityGifs=[String]()
     let reuseIdentifier = "Cell"
     
     override func viewDidLoad() {
@@ -21,6 +22,7 @@ class CollectionViewController: UICollectionViewController, UICollectionViewDele
             celebrityImages.append("clooney" + String(i))
         }
 
+        celebrityGifs.append("clooney")
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
 

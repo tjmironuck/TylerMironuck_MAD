@@ -4,8 +4,23 @@
 <dict>
 	<key>George Clooney</key>
 	<array>
-		<string>Algeria</string>
-		<string>Angola</string>
+		<string>clooney1</string>
+		<string>clooney2</string>
+		<string>clooney3</string>
+		<string>clooney4</string>
+		<string>clooney5</string>
+		<string>clooney6</string>
+		<string>clooney7</string>
+		<string>clooney8</string>
+		<string>clooney9</string>
+		<string>clooney10</string>
+		<string>clooney11</string>
+		<string>clooney12</string>
+		<string>clooney13</string>
+		<string>clooney14</string>
+		<string>clooney15</string>
+		<string>clooney16</string>
+		<string>clooney17</string>
 	</array>
 	<key>Sean Connery</key>
 	<array/>
@@ -24,7 +39,7 @@
 		<string>Canada</string>
 		<string>United States</string>
 	</array>
-	<key>Tome Cruise</key>
+	<key>Tom Cruise</key>
 	<array>
 		<string>Australia</string>
 		<string>New Zealand</string>

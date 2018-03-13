@@ -42,7 +42,7 @@
             </objects>
             <point key="canvasLocation" x="472.80000000000001" y="126.38680659670166"/>
         </scene>
-        <!--George Clooney GIFs-->
+        <!--Title-->
         <scene sceneID="9Mk-jv-VgT">
             <objects>
                 <collectionViewController id="z7P-nO-doP" customClass="CollectionViewController" customModule="celebrityGIF" customModuleProvider="target" sceneMemberID="viewController">
@@ -87,7 +87,9 @@
                             <outlet property="delegate" destination="z7P-nO-doP" id="HCQ-vi-0aH"/>
                         </connections>
                     </collectionView>
-                    <navigationItem key="navigationItem" title="George Clooney GIFs" id="xim-tk-DPi"/>
+                    <navigationItem key="navigationItem" title="Title" id="Gbj-FW-d79">
+                        <barButtonItem key="leftBarButtonItem" title="Item" id="NRg-JW-Ll9"/>
+                    </navigationItem>
                 </collectionViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vd4-YT-JAs" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -102,25 +104,34 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="AVs-tL-9Tk">
-                                <rect key="frame" x="67" y="269" width="240" height="128"/>
+                                <rect key="frame" x="67" y="277" width="240" height="112"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Copy" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uL4-Jv-Xgd">
-                                <rect key="frame" x="158.5" y="442" width="57" height="41"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="23"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bFr-fk-5Ew">
+                                <rect key="frame" x="161" y="429" width="52" height="38"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="21"/>
+                                <state key="normal" title="Copy"/>
+                                <connections>
+                                    <action selector="copyGIF:" destination="cfx-Yx-ujk" eventType="touchUpInside" id="0QJ-i3-jGH"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="uL4-Jv-Xgd" firstAttribute="centerX" secondItem="pf2-8Y-RSt" secondAttribute="centerX" id="7oa-k1-KOg"/>
-                            <constraint firstItem="uL4-Jv-Xgd" firstAttribute="top" secondItem="AVs-tL-9Tk" secondAttribute="bottom" constant="45" id="YKc-PC-Lsb"/>
+                            <constraint firstItem="bFr-fk-5Ew" firstAttribute="top" secondItem="AVs-tL-9Tk" secondAttribute="bottom" constant="40" id="2eE-cc-PIo"/>
+                            <constraint firstItem="bFr-fk-5Ew" firstAttribute="centerX" secondItem="pf2-8Y-RSt" secondAttribute="centerX" id="GW5-mU-d3P"/>
                             <constraint firstItem="AVs-tL-9Tk" firstAttribute="centerX" secondItem="pf2-8Y-RSt" secondAttribute="centerX" id="ZSZ-WV-udf"/>
+                            <constraint firstItem="BPw-mY-Dc0" firstAttribute="bottom" secondItem="bFr-fk-5Ew" secondAttribute="bottom" constant="200" id="nzy-yx-I7z"/>
                             <constraint firstItem="AVs-tL-9Tk" firstAttribute="centerY" secondItem="pf2-8Y-RSt" secondAttribute="centerY" id="zCa-ey-m2Z"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="BPw-mY-Dc0"/>
                     </view>
-                    <navigationItem key="navigationItem" id="XPb-vW-N49"/>
+                    <navigationItem key="navigationItem" id="XPb-vW-N49">
+                        <barButtonItem key="rightBarButtonItem" systemItem="action" id="dQR-Qd-JIi">
+                            <connections>
+                                <action selector="share:" destination="cfx-Yx-ujk" id="mO4-Pa-5ir"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
                         <outlet property="GifView" destination="AVs-tL-9Tk" id="dVQ-TG-Aa4"/>
                     </connections>
@@ -150,6 +161,7 @@
         <!--Navigation Controller-->
         <scene sceneID="g8C-hV-apo">
             <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dFn-no-uDc" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="CVq-9c-a6I" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="THh-EX-Yaf">
@@ -161,7 +173,6 @@
                         <segue destination="z7P-nO-doP" kind="relationship" relationship="rootViewController" id="nwm-dZ-9u8"/>
                     </connections>
                 </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dFn-no-uDc" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1232" y="124.13793103448276"/>
         </scene>

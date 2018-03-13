@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		E31663372045BBD1008B0D2F /* GifViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E31663362045BBD1008B0D2F /* GifViewController.swift */; };
 		E31663392045BCB6008B0D2F /* Swift+Gif.swift in Sources */ = {isa = PBXBuildFile; fileRef = E31663382045BCB6008B0D2F /* Swift+Gif.swift */; };
-		E316633B2045BE2B008B0D2F /* clooney.gif in Resources */ = {isa = PBXBuildFile; fileRef = E316633A2045BE2B008B0D2F /* clooney.gif */; };
 		E37FB79E20453D010017A4B2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E37FB79D20453D010017A4B2 /* AppDelegate.swift */; };
 		E37FB7A020453D010017A4B2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E37FB79F20453D010017A4B2 /* ViewController.swift */; };
 		E37FB7A320453D010017A4B2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E37FB7A120453D010017A4B2 /* Main.storyboard */; };
@@ -19,12 +18,12 @@
 		E37FB7B2204540120017A4B2 /* Celebrities.swift in Sources */ = {isa = PBXBuildFile; fileRef = E37FB7B1204540120017A4B2 /* Celebrities.swift */; };
 		E37FB7B4204543EE0017A4B2 /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E37FB7B3204543EE0017A4B2 /* CollectionViewController.swift */; };
 		E37FB7B6204544980017A4B2 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E37FB7B5204544980017A4B2 /* CollectionViewCell.swift */; };
+		E3BC5F9B20564A5A00F705A5 /* clooney.gif in Resources */ = {isa = PBXBuildFile; fileRef = E3BC5F9A20564A5A00F705A5 /* clooney.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E31663362045BBD1008B0D2F /* GifViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GifViewController.swift; sourceTree = "<group>"; };
 		E31663382045BCB6008B0D2F /* Swift+Gif.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Swift+Gif.swift"; sourceTree = "<group>"; };
-		E316633A2045BE2B008B0D2F /* clooney.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = clooney.gif; sourceTree = "<group>"; };
 		E37FB79A20453D010017A4B2 /* celebrityGIF.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = celebrityGIF.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E37FB79D20453D010017A4B2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E37FB79F20453D010017A4B2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -36,6 +35,7 @@
 		E37FB7B1204540120017A4B2 /* Celebrities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Celebrities.swift; sourceTree = "<group>"; };
 		E37FB7B3204543EE0017A4B2 /* CollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
 		E37FB7B5204544980017A4B2 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		E3BC5F9A20564A5A00F705A5 /* clooney.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = clooney.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,8 +74,8 @@
 				E37FB7B1204540120017A4B2 /* Celebrities.swift */,
 				E37FB7B5204544980017A4B2 /* CollectionViewCell.swift */,
 				E31663362045BBD1008B0D2F /* GifViewController.swift */,
+				E3BC5F9A20564A5A00F705A5 /* clooney.gif */,
 				E31663382045BCB6008B0D2F /* Swift+Gif.swift */,
-				E316633A2045BE2B008B0D2F /* clooney.gif */,
 				E37FB7A120453D010017A4B2 /* Main.storyboard */,
 				E37FB7A420453D010017A4B2 /* Assets.xcassets */,
 				E37FB7A620453D010017A4B2 /* LaunchScreen.storyboard */,
@@ -148,7 +148,7 @@
 				E37FB7A520453D010017A4B2 /* Assets.xcassets in Resources */,
 				E37FB7A320453D010017A4B2 /* Main.storyboard in Resources */,
 				E37FB7B020453E8B0017A4B2 /* celebrities.plist in Resources */,
-				E316633B2045BE2B008B0D2F /* clooney.gif in Resources */,
+				E3BC5F9B20564A5A00F705A5 /* clooney.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
