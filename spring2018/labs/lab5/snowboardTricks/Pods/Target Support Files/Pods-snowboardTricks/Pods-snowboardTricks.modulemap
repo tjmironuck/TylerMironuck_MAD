@@ -1,0 +1,6 @@
+framework module Pods_snowboardTricks {
+  umbrella header "Pods-snowboardTricks-umbrella.h"
+
+  export *
+  module * { export * }
+}
