@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">MLBnationalLeague</string>
+    <string name="NLlogo">NLlogo</string>
+    <string-array name="divisions">
+        <item>National League West</item>
+        <item>National League Central</item>
+        <item>National League East</item>
+    </string-array>
+    <string name="team_image">team picture</string>
+    <string name="load_website">website</string>
+</resources>

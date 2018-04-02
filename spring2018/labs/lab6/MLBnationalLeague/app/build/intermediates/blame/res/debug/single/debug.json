@@ -1,0 +1,166 @@
+[
+    {
+        "merged": "C:\\Users\\tjmir\\AndroidStudioProjects\\MLBnationalLeague\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\tjmir\\AndroidStudioProjects\\MLBnationalLeague\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\tjmir\\AndroidStudioProjects\\MLBnationalLeague\\app\\build\\intermediates\\res\\merged\\debug\\drawable_cardinals.png.flat",
+        "source": "C:\\Users\\tjmir\\AndroidStudioProjects\\MLBnationalLeague\\app\\src\\main\\res\\drawable\\cardinals.png"
+    },
+    {
+        "merged": "C:\\Users\\tjmir\\AndroidStudioProjects\\MLBnationalLeague\\app\\build\\intermediates\\res\\merged\\debug\\drawable_marlins.png.flat",
+        "source": "C:\\Users\\tjmir\\AndroidStudioProjects\\MLBnationalLeague\\app\\src\\main\\res\\drawable\\marlins.png"
+    },
+    {
+        "merged": "C:\\Users\\tjmir\\AndroidStudioProjects\\MLBnationalLeague\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_store.png.flat",
+        "source": "C:\\Users\\tjmir\\AndroidStudioProjects\\MLBnationalLeague\\app\\src\\main\\res\\drawable\\ic_store.png"
+    },
+    {
+        "merged": "C:\\Users\\tjmir\\AndroidStudioProjects\\MLBnationalLeague\\app\\build\\intermediates\\res\\merged\\debug\\drawable_diamondbacks.png.flat",
+        "source": "C:\\Users\\tjmir\\AndroidStudioProjects\\MLBnationalLeague\\app\\src\\main\\res\\drawable\\diamondbacks.png"
+    },
+    {
+        "merged": "C:\\Users\\tjmir\\AndroidStudioProjects\\MLBnationalLeague\\app\\build\\intermediates\\res\\merged\\debug\\drawable_pirates.png.flat",
+        "source": "C:\\Users\\tjmir\\AndroidStudioProjects\\MLBnationalLeague\\app\\src\\main\\res\\drawable\\pirates.png"
+    },
+    {
+        "merged": "C:\\Users\\tjmir\\AndroidStudioProjects\\MLBnationalLeague\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\tjmir\\AndroidStudioProjects\\MLBnationalLeague\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\tjmir\\AndroidStudioProjects\\MLBnationalLeague\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\tjmir\\AndroidStudioProjects\\MLBnationalLeague\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\tjmir\\AndroidStudioProjects\\MLBnationalLeague\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\tjmir\\AndroidStudioProjects\\MLBnationalLeague\\app\\src\\main\\res\\drawable-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\tjmir\\AndroidStudioProjects\\MLBnationalLeague\\app\\build\\intermediates\\res\\merged\\debug\\drawable_braves.png.flat",
+        "source": "C:\\Users\\tjmir\\AndroidStudioProjects\\MLBnationalLeague\\app\\src\\main\\res\\drawable\\braves.png"
+    },
+    {
+        "merged": "C:\\Users\\tjmir\\AndroidStudioProjects\\MLBnationalLeague\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\tjmir\\AndroidStudioProjects\\MLBnationalLeague\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\tjmir\\AndroidStudioProjects\\MLBnationalLeague\\app\\build\\intermediates\\res\\merged\\debug\\drawable_nationalleague.png.flat",
+        "source": "C:\\Users\\tjmir\\AndroidStudioProjects\\MLBnationalLeague\\app\\src\\main\\res\\drawable\\nationalleague.png"
+    },
+    {
+        "merged": "C:\\Users\\tjmir\\AndroidStudioProjects\\MLBnationalLeague\\app\\build\\intermediates\\res\\merged\\debug\\drawable_cubs.png.flat",
+        "source": "C:\\Users\\tjmir\\AndroidStudioProjects\\MLBnationalLeague\\app\\src\\main\\res\\drawable\\cubs.png"
+    },
+    {
+        "merged": "C:\\Users\\tjmir\\AndroidStudioProjects\\MLBnationalLeague\\app\\build\\intermediates\\res\\merged\\debug\\drawable_nationals.png.flat",
+        "source": "C:\\Users\\tjmir\\AndroidStudioProjects\\MLBnationalLeague\\app\\src\\main\\res\\drawable\\nationals.png"
+    },
+    {
+        "merged": "C:\\Users\\tjmir\\AndroidStudioProjects\\MLBnationalLeague\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_website.xml.flat",
+        "source": "C:\\Users\\tjmir\\AndroidStudioProjects\\MLBnationalLeague\\app\\src\\main\\res\\layout\\activity_website.xml"
+    },
+    {
+        "merged": "C:\\Users\\tjmir\\AndroidStudioProjects\\MLBnationalLeague\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\tjmir\\AndroidStudioProjects\\MLBnationalLeague\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\tjmir\\AndroidStudioProjects\\MLBnationalLeague\\app\\build\\intermediates\\res\\merged\\debug\\drawable_mets.png.flat",
+        "source": "C:\\Users\\tjmir\\AndroidStudioProjects\\MLBnationalLeague\\app\\src\\main\\res\\drawable\\mets.png"
+    },
+    {
+        "merged": "C:\\Users\\tjmir\\AndroidStudioProjects\\MLBnationalLeague\\app\\build\\intermediates\\res\\merged\\debug\\drawable_giants.png.flat",
+        "source": "C:\\Users\\tjmir\\AndroidStudioProjects\\MLBnationalLeague\\app\\src\\main\\res\\drawable\\giants.png"
+    },
+    {
+        "merged": "C:\\Users\\tjmir\\AndroidStudioProjects\\MLBnationalLeague\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\tjmir\\AndroidStudioProjects\\MLBnationalLeague\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\tjmir\\AndroidStudioProjects\\MLBnationalLeague\\app\\build\\intermediates\\res\\merged\\debug\\drawable_phillies.png.flat",
+        "source": "C:\\Users\\tjmir\\AndroidStudioProjects\\MLBnationalLeague\\app\\src\\main\\res\\drawable\\phillies.png"
+    },
+    {
+        "merged": "C:\\Users\\tjmir\\AndroidStudioProjects\\MLBnationalLeague\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\tjmir\\AndroidStudioProjects\\MLBnationalLeague\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\tjmir\\AndroidStudioProjects\\MLBnationalLeague\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\tjmir\\AndroidStudioProjects\\MLBnationalLeague\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\tjmir\\AndroidStudioProjects\\MLBnationalLeague\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\tjmir\\AndroidStudioProjects\\MLBnationalLeague\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\tjmir\\AndroidStudioProjects\\MLBnationalLeague\\app\\build\\intermediates\\res\\merged\\debug\\drawable_rockies.png.flat",
+        "source": "C:\\Users\\tjmir\\AndroidStudioProjects\\MLBnationalLeague\\app\\src\\main\\res\\drawable\\rockies.png"
+    },
+    {
+        "merged": "C:\\Users\\tjmir\\AndroidStudioProjects\\MLBnationalLeague\\app\\build\\intermediates\\res\\merged\\debug\\drawable_reds.png.flat",
+        "source": "C:\\Users\\tjmir\\AndroidStudioProjects\\MLBnationalLeague\\app\\src\\main\\res\\drawable\\reds.png"
+    },
+    {
+        "merged": "C:\\Users\\tjmir\\AndroidStudioProjects\\MLBnationalLeague\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\tjmir\\AndroidStudioProjects\\MLBnationalLeague\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\tjmir\\AndroidStudioProjects\\MLBnationalLeague\\app\\build\\intermediates\\res\\merged\\debug\\drawable_dodgers.png.flat",
+        "source": "C:\\Users\\tjmir\\AndroidStudioProjects\\MLBnationalLeague\\app\\src\\main\\res\\drawable\\dodgers.png"
+    },
+    {
+        "merged": "C:\\Users\\tjmir\\AndroidStudioProjects\\MLBnationalLeague\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\tjmir\\AndroidStudioProjects\\MLBnationalLeague\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\tjmir\\AndroidStudioProjects\\MLBnationalLeague\\app\\build\\intermediates\\res\\merged\\debug\\drawable_info.png.flat",
+        "source": "C:\\Users\\tjmir\\AndroidStudioProjects\\MLBnationalLeague\\app\\src\\main\\res\\drawable\\info.png"
+    },
+    {
+        "merged": "C:\\Users\\tjmir\\AndroidStudioProjects\\MLBnationalLeague\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\tjmir\\AndroidStudioProjects\\MLBnationalLeague\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\tjmir\\AndroidStudioProjects\\MLBnationalLeague\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_team.xml.flat",
+        "source": "C:\\Users\\tjmir\\AndroidStudioProjects\\MLBnationalLeague\\app\\src\\main\\res\\layout\\activity_team.xml"
+    },
+    {
+        "merged": "C:\\Users\\tjmir\\AndroidStudioProjects\\MLBnationalLeague\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\tjmir\\AndroidStudioProjects\\MLBnationalLeague\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\tjmir\\AndroidStudioProjects\\MLBnationalLeague\\app\\build\\intermediates\\res\\merged\\debug\\menu_menu_main.xml.flat",
+        "source": "C:\\Users\\tjmir\\AndroidStudioProjects\\MLBnationalLeague\\app\\src\\main\\res\\menu\\menu_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\tjmir\\AndroidStudioProjects\\MLBnationalLeague\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\tjmir\\AndroidStudioProjects\\MLBnationalLeague\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\tjmir\\AndroidStudioProjects\\MLBnationalLeague\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\tjmir\\AndroidStudioProjects\\MLBnationalLeague\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\tjmir\\AndroidStudioProjects\\MLBnationalLeague\\app\\build\\intermediates\\res\\merged\\debug\\drawable_padres.png.flat",
+        "source": "C:\\Users\\tjmir\\AndroidStudioProjects\\MLBnationalLeague\\app\\src\\main\\res\\drawable\\padres.png"
+    },
+    {
+        "merged": "C:\\Users\\tjmir\\AndroidStudioProjects\\MLBnationalLeague\\app\\build\\intermediates\\res\\merged\\debug\\drawable_brewers.png.flat",
+        "source": "C:\\Users\\tjmir\\AndroidStudioProjects\\MLBnationalLeague\\app\\src\\main\\res\\drawable\\brewers.png"
+    },
+    {
+        "merged": "C:\\Users\\tjmir\\AndroidStudioProjects\\MLBnationalLeague\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\tjmir\\AndroidStudioProjects\\MLBnationalLeague\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\tjmir\\AndroidStudioProjects\\MLBnationalLeague\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\tjmir\\AndroidStudioProjects\\MLBnationalLeague\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\tjmir\\AndroidStudioProjects\\MLBnationalLeague\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_division_main.xml.flat",
+        "source": "C:\\Users\\tjmir\\AndroidStudioProjects\\MLBnationalLeague\\app\\src\\main\\res\\layout\\activity_division_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\tjmir\\AndroidStudioProjects\\MLBnationalLeague\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\tjmir\\AndroidStudioProjects\\MLBnationalLeague\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    }
+]
