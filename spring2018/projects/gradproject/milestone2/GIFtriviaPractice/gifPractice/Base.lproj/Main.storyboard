@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="gifPractice" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="4cm-C7-jLs">
+                                <rect key="frame" x="0.0" y="183" width="375" height="300"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="375" id="r2j-oR-KbS"/>
+                                    <constraint firstAttribute="height" constant="300" id="zTw-Sc-NrV"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Shake to change GIF'S" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FkH-gA-xr2">
+                                <rect key="frame" x="110.5" y="139" width="154.5" height="18"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="textColor" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="GIF Trivia!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="X6h-yq-hoi">
+                                <rect key="frame" x="93.5" y="70" width="189.5" height="49"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="41"/>
+                                <color key="textColor" red="0.0" green="0.97680455450000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Which movie is this GIF from?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cUk-Fk-oGh">
+                                <rect key="frame" x="16" y="503" width="268" height="23"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="19"/>
+                                <color key="textColor" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="A) Goodfellas " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RdU-as-jUs">
+                                <rect key="frame" x="16" y="534" width="108" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.97680455450000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="B) Casino" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kl2-r4-dgQ">
+                                <rect key="frame" x="16" y="560" width="74" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="C) Taxi Driver" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Rw-or-eAr">
+                                <rect key="frame" x="16" y="586" width="103" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.97680455450000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="D) Meet the Parents" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WzQ-eU-k0g">
+                                <rect key="frame" x="16" y="612" width="153" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="WzQ-eU-k0g" firstAttribute="leading" secondItem="cUk-Fk-oGh" secondAttribute="leading" id="1dc-6c-bBX"/>
+                            <constraint firstItem="WzQ-eU-k0g" firstAttribute="top" secondItem="3Rw-or-eAr" secondAttribute="bottom" constant="5" id="8R9-Cg-0FO"/>
+                            <constraint firstItem="X6h-yq-hoi" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="50" id="97L-gd-fzg"/>
+                            <constraint firstItem="4cm-C7-jLs" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="98J-GI-sQ8"/>
+                            <constraint firstItem="cUk-Fk-oGh" firstAttribute="top" secondItem="4cm-C7-jLs" secondAttribute="bottom" constant="20" id="AIN-Cw-AN7"/>
+                            <constraint firstItem="cUk-Fk-oGh" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="KWF-j5-Oq1"/>
+                            <constraint firstItem="3Rw-or-eAr" firstAttribute="leading" secondItem="cUk-Fk-oGh" secondAttribute="leading" id="LSP-UN-i4a"/>
+                            <constraint firstItem="FkH-gA-xr2" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="SF5-gG-NVu"/>
+                            <constraint firstItem="4cm-C7-jLs" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="U7i-Qo-oKy"/>
+                            <constraint firstItem="kl2-r4-dgQ" firstAttribute="top" secondItem="RdU-as-jUs" secondAttribute="bottom" constant="5" id="UtS-FX-d41"/>
+                            <constraint firstItem="RdU-as-jUs" firstAttribute="leading" secondItem="cUk-Fk-oGh" secondAttribute="leading" id="cLL-zK-Gwg"/>
+                            <constraint firstItem="3Rw-or-eAr" firstAttribute="top" secondItem="kl2-r4-dgQ" secondAttribute="bottom" constant="5" id="dLs-s9-Cj5"/>
+                            <constraint firstItem="FkH-gA-xr2" firstAttribute="top" secondItem="X6h-yq-hoi" secondAttribute="bottom" constant="20" id="i0O-BS-ZIV"/>
+                            <constraint firstItem="RdU-as-jUs" firstAttribute="top" secondItem="cUk-Fk-oGh" secondAttribute="bottom" constant="8" id="tWi-BW-bYn"/>
+                            <constraint firstItem="kl2-r4-dgQ" firstAttribute="leading" secondItem="cUk-Fk-oGh" secondAttribute="leading" id="x64-Ka-Sfr"/>
+                            <constraint firstItem="X6h-yq-hoi" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="zxY-de-xp3"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="GifView" destination="4cm-C7-jLs" id="EIY-f2-Zg4"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="132.68365817091455"/>
+        </scene>
+    </scenes>
+</document>

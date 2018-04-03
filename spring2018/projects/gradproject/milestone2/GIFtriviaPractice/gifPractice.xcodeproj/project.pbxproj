@@ -1,0 +1,407 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E3166335204555A3008B0D2F /* clooney.gif in Resources */ = {isa = PBXBuildFile; fileRef = E3166334204555A3008B0D2F /* clooney.gif */; };
+		E37FB7C4204551C50017A4B2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E37FB7C3204551C50017A4B2 /* AppDelegate.swift */; };
+		E37FB7C6204551C50017A4B2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E37FB7C5204551C50017A4B2 /* ViewController.swift */; };
+		E37FB7C9204551C50017A4B2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E37FB7C7204551C50017A4B2 /* Main.storyboard */; };
+		E37FB7CB204551C50017A4B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E37FB7CA204551C50017A4B2 /* Assets.xcassets */; };
+		E37FB7CE204551C50017A4B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E37FB7CC204551C50017A4B2 /* LaunchScreen.storyboard */; };
+		E37FB7D6204552A10017A4B2 /* Swift+Gif.swift in Sources */ = {isa = PBXBuildFile; fileRef = E37FB7D5204552A10017A4B2 /* Swift+Gif.swift */; };
+		E38F56462072F0DC0043F2FD /* deniro6.gif in Resources */ = {isa = PBXBuildFile; fileRef = E38F56342072F0DB0043F2FD /* deniro6.gif */; };
+		E38F56472072F0DC0043F2FD /* deniro16.gif in Resources */ = {isa = PBXBuildFile; fileRef = E38F56352072F0DB0043F2FD /* deniro16.gif */; };
+		E38F56482072F0DC0043F2FD /* deniro3.gif in Resources */ = {isa = PBXBuildFile; fileRef = E38F56362072F0DB0043F2FD /* deniro3.gif */; };
+		E38F56492072F0DC0043F2FD /* deniro8.gif in Resources */ = {isa = PBXBuildFile; fileRef = E38F56372072F0DB0043F2FD /* deniro8.gif */; };
+		E38F564A2072F0DC0043F2FD /* deniro13.gif in Resources */ = {isa = PBXBuildFile; fileRef = E38F56382072F0DB0043F2FD /* deniro13.gif */; };
+		E38F564B2072F0DC0043F2FD /* deniro1.gif in Resources */ = {isa = PBXBuildFile; fileRef = E38F56392072F0DB0043F2FD /* deniro1.gif */; };
+		E38F564C2072F0DC0043F2FD /* deniro11.gif in Resources */ = {isa = PBXBuildFile; fileRef = E38F563A2072F0DB0043F2FD /* deniro11.gif */; };
+		E38F564D2072F0DC0043F2FD /* deniro12.gif in Resources */ = {isa = PBXBuildFile; fileRef = E38F563B2072F0DB0043F2FD /* deniro12.gif */; };
+		E38F564E2072F0DC0043F2FD /* deniro18.gif in Resources */ = {isa = PBXBuildFile; fileRef = E38F563C2072F0DB0043F2FD /* deniro18.gif */; };
+		E38F564F2072F0DC0043F2FD /* deniro7.gif in Resources */ = {isa = PBXBuildFile; fileRef = E38F563D2072F0DC0043F2FD /* deniro7.gif */; };
+		E38F56502072F0DC0043F2FD /* deniro15.gif in Resources */ = {isa = PBXBuildFile; fileRef = E38F563E2072F0DC0043F2FD /* deniro15.gif */; };
+		E38F56512072F0DC0043F2FD /* deniro5.gif in Resources */ = {isa = PBXBuildFile; fileRef = E38F563F2072F0DC0043F2FD /* deniro5.gif */; };
+		E38F56522072F0DC0043F2FD /* deniro9.gif in Resources */ = {isa = PBXBuildFile; fileRef = E38F56402072F0DC0043F2FD /* deniro9.gif */; };
+		E38F56532072F0DC0043F2FD /* deniro10.gif in Resources */ = {isa = PBXBuildFile; fileRef = E38F56412072F0DC0043F2FD /* deniro10.gif */; };
+		E38F56542072F0DC0043F2FD /* deniro2.gif in Resources */ = {isa = PBXBuildFile; fileRef = E38F56422072F0DC0043F2FD /* deniro2.gif */; };
+		E38F56552072F0DC0043F2FD /* deniro17.gif in Resources */ = {isa = PBXBuildFile; fileRef = E38F56432072F0DC0043F2FD /* deniro17.gif */; };
+		E38F56562072F0DC0043F2FD /* deniro14.gif in Resources */ = {isa = PBXBuildFile; fileRef = E38F56442072F0DC0043F2FD /* deniro14.gif */; };
+		E38F56572072F0DC0043F2FD /* deniro4.gif in Resources */ = {isa = PBXBuildFile; fileRef = E38F56452072F0DC0043F2FD /* deniro4.gif */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E3166334204555A3008B0D2F /* clooney.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = clooney.gif; sourceTree = "<group>"; };
+		E37FB7C0204551C50017A4B2 /* gifPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gifPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E37FB7C3204551C50017A4B2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E37FB7C5204551C50017A4B2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E37FB7C8204551C50017A4B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E37FB7CA204551C50017A4B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E37FB7CD204551C50017A4B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E37FB7CF204551C50017A4B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E37FB7D5204552A10017A4B2 /* Swift+Gif.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Swift+Gif.swift"; sourceTree = "<group>"; };
+		E38F56342072F0DB0043F2FD /* deniro6.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = deniro6.gif; path = ../../../../project1/milestone3/gifsFinal/gifs/deniro6.gif; sourceTree = "<group>"; };
+		E38F56352072F0DB0043F2FD /* deniro16.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = deniro16.gif; path = ../../../../project1/milestone3/gifsFinal/gifs/deniro16.gif; sourceTree = "<group>"; };
+		E38F56362072F0DB0043F2FD /* deniro3.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = deniro3.gif; path = ../../../../project1/milestone3/gifsFinal/gifs/deniro3.gif; sourceTree = "<group>"; };
+		E38F56372072F0DB0043F2FD /* deniro8.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = deniro8.gif; path = ../../../../project1/milestone3/gifsFinal/gifs/deniro8.gif; sourceTree = "<group>"; };
+		E38F56382072F0DB0043F2FD /* deniro13.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = deniro13.gif; path = ../../../../project1/milestone3/gifsFinal/gifs/deniro13.gif; sourceTree = "<group>"; };
+		E38F56392072F0DB0043F2FD /* deniro1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = deniro1.gif; path = ../../../../project1/milestone3/gifsFinal/gifs/deniro1.gif; sourceTree = "<group>"; };
+		E38F563A2072F0DB0043F2FD /* deniro11.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = deniro11.gif; path = ../../../../project1/milestone3/gifsFinal/gifs/deniro11.gif; sourceTree = "<group>"; };
+		E38F563B2072F0DB0043F2FD /* deniro12.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = deniro12.gif; path = ../../../../project1/milestone3/gifsFinal/gifs/deniro12.gif; sourceTree = "<group>"; };
+		E38F563C2072F0DB0043F2FD /* deniro18.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = deniro18.gif; path = ../../../../project1/milestone3/gifsFinal/gifs/deniro18.gif; sourceTree = "<group>"; };
+		E38F563D2072F0DC0043F2FD /* deniro7.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = deniro7.gif; path = ../../../../project1/milestone3/gifsFinal/gifs/deniro7.gif; sourceTree = "<group>"; };
+		E38F563E2072F0DC0043F2FD /* deniro15.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = deniro15.gif; path = ../../../../project1/milestone3/gifsFinal/gifs/deniro15.gif; sourceTree = "<group>"; };
+		E38F563F2072F0DC0043F2FD /* deniro5.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = deniro5.gif; path = ../../../../project1/milestone3/gifsFinal/gifs/deniro5.gif; sourceTree = "<group>"; };
+		E38F56402072F0DC0043F2FD /* deniro9.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = deniro9.gif; path = ../../../../project1/milestone3/gifsFinal/gifs/deniro9.gif; sourceTree = "<group>"; };
+		E38F56412072F0DC0043F2FD /* deniro10.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = deniro10.gif; path = ../../../../project1/milestone3/gifsFinal/gifs/deniro10.gif; sourceTree = "<group>"; };
+		E38F56422072F0DC0043F2FD /* deniro2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = deniro2.gif; path = ../../../../project1/milestone3/gifsFinal/gifs/deniro2.gif; sourceTree = "<group>"; };
+		E38F56432072F0DC0043F2FD /* deniro17.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = deniro17.gif; path = ../../../../project1/milestone3/gifsFinal/gifs/deniro17.gif; sourceTree = "<group>"; };
+		E38F56442072F0DC0043F2FD /* deniro14.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = deniro14.gif; path = ../../../../project1/milestone3/gifsFinal/gifs/deniro14.gif; sourceTree = "<group>"; };
+		E38F56452072F0DC0043F2FD /* deniro4.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = deniro4.gif; path = ../../../../project1/milestone3/gifsFinal/gifs/deniro4.gif; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E37FB7BD204551C50017A4B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E37FB7B7204551C50017A4B2 = {
+			isa = PBXGroup;
+			children = (
+				E37FB7C2204551C50017A4B2 /* gifPractice */,
+				E37FB7C1204551C50017A4B2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E37FB7C1204551C50017A4B2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E37FB7C0204551C50017A4B2 /* gifPractice.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E37FB7C2204551C50017A4B2 /* gifPractice */ = {
+			isa = PBXGroup;
+			children = (
+				E37FB7C3204551C50017A4B2 /* AppDelegate.swift */,
+				E37FB7C5204551C50017A4B2 /* ViewController.swift */,
+				E3166334204555A3008B0D2F /* clooney.gif */,
+				E37FB7C7204551C50017A4B2 /* Main.storyboard */,
+				E37FB7D5204552A10017A4B2 /* Swift+Gif.swift */,
+				E37FB7CA204551C50017A4B2 /* Assets.xcassets */,
+				E37FB7CC204551C50017A4B2 /* LaunchScreen.storyboard */,
+				E37FB7CF204551C50017A4B2 /* Info.plist */,
+				E38F56392072F0DB0043F2FD /* deniro1.gif */,
+				E38F56422072F0DC0043F2FD /* deniro2.gif */,
+				E38F56362072F0DB0043F2FD /* deniro3.gif */,
+				E38F56452072F0DC0043F2FD /* deniro4.gif */,
+				E38F563F2072F0DC0043F2FD /* deniro5.gif */,
+				E38F56342072F0DB0043F2FD /* deniro6.gif */,
+				E38F563D2072F0DC0043F2FD /* deniro7.gif */,
+				E38F56372072F0DB0043F2FD /* deniro8.gif */,
+				E38F56402072F0DC0043F2FD /* deniro9.gif */,
+				E38F56412072F0DC0043F2FD /* deniro10.gif */,
+				E38F563A2072F0DB0043F2FD /* deniro11.gif */,
+				E38F563B2072F0DB0043F2FD /* deniro12.gif */,
+				E38F56382072F0DB0043F2FD /* deniro13.gif */,
+				E38F56442072F0DC0043F2FD /* deniro14.gif */,
+				E38F563E2072F0DC0043F2FD /* deniro15.gif */,
+				E38F56352072F0DB0043F2FD /* deniro16.gif */,
+				E38F56432072F0DC0043F2FD /* deniro17.gif */,
+				E38F563C2072F0DB0043F2FD /* deniro18.gif */,
+			);
+			path = gifPractice;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E37FB7BF204551C50017A4B2 /* gifPractice */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E37FB7D2204551C50017A4B2 /* Build configuration list for PBXNativeTarget "gifPractice" */;
+			buildPhases = (
+				E37FB7BC204551C50017A4B2 /* Sources */,
+				E37FB7BD204551C50017A4B2 /* Frameworks */,
+				E37FB7BE204551C50017A4B2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = gifPractice;
+			productName = gifPractice;
+			productReference = E37FB7C0204551C50017A4B2 /* gifPractice.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E37FB7B8204551C50017A4B2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Tyler MIRONUCK";
+				TargetAttributes = {
+					E37FB7BF204551C50017A4B2 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = E37FB7BB204551C50017A4B2 /* Build configuration list for PBXProject "gifPractice" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E37FB7B7204551C50017A4B2;
+			productRefGroup = E37FB7C1204551C50017A4B2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E37FB7BF204551C50017A4B2 /* gifPractice */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E37FB7BE204551C50017A4B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E38F56492072F0DC0043F2FD /* deniro8.gif in Resources */,
+				E38F564B2072F0DC0043F2FD /* deniro1.gif in Resources */,
+				E38F56502072F0DC0043F2FD /* deniro15.gif in Resources */,
+				E3166335204555A3008B0D2F /* clooney.gif in Resources */,
+				E38F56462072F0DC0043F2FD /* deniro6.gif in Resources */,
+				E38F56512072F0DC0043F2FD /* deniro5.gif in Resources */,
+				E38F56472072F0DC0043F2FD /* deniro16.gif in Resources */,
+				E37FB7CE204551C50017A4B2 /* LaunchScreen.storyboard in Resources */,
+				E38F56542072F0DC0043F2FD /* deniro2.gif in Resources */,
+				E38F564A2072F0DC0043F2FD /* deniro13.gif in Resources */,
+				E37FB7CB204551C50017A4B2 /* Assets.xcassets in Resources */,
+				E38F56562072F0DC0043F2FD /* deniro14.gif in Resources */,
+				E38F56522072F0DC0043F2FD /* deniro9.gif in Resources */,
+				E38F564D2072F0DC0043F2FD /* deniro12.gif in Resources */,
+				E38F564E2072F0DC0043F2FD /* deniro18.gif in Resources */,
+				E37FB7C9204551C50017A4B2 /* Main.storyboard in Resources */,
+				E38F56532072F0DC0043F2FD /* deniro10.gif in Resources */,
+				E38F564F2072F0DC0043F2FD /* deniro7.gif in Resources */,
+				E38F56552072F0DC0043F2FD /* deniro17.gif in Resources */,
+				E38F564C2072F0DC0043F2FD /* deniro11.gif in Resources */,
+				E38F56572072F0DC0043F2FD /* deniro4.gif in Resources */,
+				E38F56482072F0DC0043F2FD /* deniro3.gif in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E37FB7BC204551C50017A4B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E37FB7C6204551C50017A4B2 /* ViewController.swift in Sources */,
+				E37FB7D6204552A10017A4B2 /* Swift+Gif.swift in Sources */,
+				E37FB7C4204551C50017A4B2 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E37FB7C7204551C50017A4B2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E37FB7C8204551C50017A4B2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E37FB7CC204551C50017A4B2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E37FB7CD204551C50017A4B2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E37FB7D0204551C50017A4B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E37FB7D1204551C50017A4B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E37FB7D3204551C50017A4B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RLST6ENPHQ;
+				INFOPLIST_FILE = gifPractice/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ATLAS.gifPractice;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E37FB7D4204551C50017A4B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RLST6ENPHQ;
+				INFOPLIST_FILE = gifPractice/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ATLAS.gifPractice;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E37FB7BB204551C50017A4B2 /* Build configuration list for PBXProject "gifPractice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E37FB7D0204551C50017A4B2 /* Debug */,
+				E37FB7D1204551C50017A4B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E37FB7D2204551C50017A4B2 /* Build configuration list for PBXNativeTarget "gifPractice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E37FB7D3204551C50017A4B2 /* Debug */,
+				E37FB7D4204551C50017A4B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E37FB7B8204551C50017A4B2 /* Project object */;
+}
