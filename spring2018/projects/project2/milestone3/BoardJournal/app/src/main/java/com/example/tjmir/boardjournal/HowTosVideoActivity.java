@@ -2,6 +2,7 @@ package com.example.tjmir.boardjournal;
 
 import android.app.Activity;
 import android.content.Intent;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -30,14 +31,14 @@ public class HowTosVideoActivity extends YouTubeBaseActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_how_tos_video);
-
+        //getWindow().getDecorView().setBackgroundColor(Color.BLACK);
         //get Trick id from the intent
         int tricknum = (Integer)getIntent().getExtras().get("trickid");
         final HowTos howTos = HowTos.howTos[tricknum];
 
         //populate name
         TextView trickName = (TextView)findViewById(R.id.trick_name);
-        trickName.setText("How to do a \n"+ howTos.getName());
+        trickName.setText(howTos.getName());
 
         Log.d(TAG, "onCreate: Starting.");
         btnPlay = (Button) findViewById(R.id.btnPlay);
@@ -51,8 +52,9 @@ public class HowTosVideoActivity extends YouTubeBaseActivity {
 //                videoList.add("iKkhKekZNQ8");
 //                videoList.add("6QsLhWzXGu0");
 //                youTubePlayer.loadVideos(videoList);
-                //youTubePlayer.loadVideo(howTos.getVideoResourceID());
-                youTubePlayer.loadVideo("iKkhKekZNQ8");
+                youTubePlayer.loadVideo(howTos.getVideoResourceID());
+                getWindow().getDecorView().setBackgroundColor(Color.BLACK);
+                //iyouTubePlayer.loadVideo("iKkhKekZNQ8");
             }
 
             @Override

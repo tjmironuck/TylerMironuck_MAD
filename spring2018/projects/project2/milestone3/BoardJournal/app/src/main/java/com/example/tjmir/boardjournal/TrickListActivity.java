@@ -155,7 +155,7 @@ public class TrickListActivity extends AppCompatActivity {
                 trick.setLanded(!trick.hasLanded());
             }
         });
-        //if(checkboxi is not marked) {
+        //
             ///////DELETE THIS CODE IF YOU WANT TO GO BACK TO HOW IT WAS////////////////////////
             //create a vertical linear layout to hold edit texts
             LinearLayout layout = new LinearLayout(TrickListActivity.this);
@@ -163,7 +163,10 @@ public class TrickListActivity extends AppCompatActivity {
 
 
             final Trick trick = realm.where(Trick.class).equalTo("id", trickId).findFirst();
+            Boolean landedCheck = trick.hasLanded();
+            if(!landedCheck){
             final EditText dateEditText = new EditText(TrickListActivity.this);
+
             dateEditText.setText(trick.getTrick_date());
             layout.addView(dateEditText);
 
@@ -191,7 +194,10 @@ public class TrickListActivity extends AppCompatActivity {
             dialog.create();
             dialog.show();
             //////////////////////////////////////////////
-        //}
+        }
+        else {
+                changeDate(trick.getId(), "");
+            }
     }
 
     private void changeTrick(final String trickId, final String trick_name, final String trick_date) {
