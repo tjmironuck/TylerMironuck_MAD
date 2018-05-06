@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "331139711516",
+    "firebase_url": "https://giftideas-7d0a2.firebaseio.com",
+    "project_id": "giftideas-7d0a2",
+    "storage_bucket": "giftideas-7d0a2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:331139711516:android:63fcc13f88163376",
+        "android_client_info": {
+          "package_name": "com.example.tjmir.giftideas"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "331139711516-9qtk7floq9j73rf6bvlpkeple3ilud7l.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.tjmir.giftideas",
+            "certificate_hash": "f8fa5a18ec486fa8c4187a35eed4cfa269ad7b05"
+          }
+        },
+        {
+          "client_id": "331139711516-qc19ou3s89eec674ambpkq8e409tb5i6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDfGz9Ac6tXXqq0xwygbfCXFjn2dzZ-k6E"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "331139711516-qc19ou3s89eec674ambpkq8e409tb5i6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
