@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">MironuckFinal2</string>
+    <string name="NLlogo">NLlogo</string>
+    <string-array name="items">
+        <item>National League West</item>
+        <item>National League Central</item>
+        <item>National League East</item>
+    </string-array>
+    <string name="team_image">team picture</string>
+    <string name="add_dialog_title">Add Item</string>
+    <string name="create_order">Register</string>
+</resources>
